@@ -1,0 +1,338 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Dia Internacional de la madre tierra </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--grupo css -->
+	<link rel="stylesheet" href="css/tema.proyecto.min.css"/> 
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css"/> 
+	<link rel="stylesheet" href="css/tema-app4.min.css"/>
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    
+    <!--grupo js -->
+    <script src="js/jquery-1.11.1.min.js"></script> 
+	<script src="js/jquery.mobile-1.4.5.min.js"></script> 
+	<script src="phonegap.js"></script><!--nesesario*/-->
+    
+    <!-- Menu Lateral -->
+    <link rel="stylesheet" href="css/sldr.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jsplug.js"> </script>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/m6.jpg','imagenes/m15.png','imagenes/m14.jpg','imagenes/tierra-4.jpg','imagenes/tierra-13.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Dia Internacional de la Madre Tierra 22 de abril </h1>
+   </div>
+   <div class="container">
+   <div id="sidebar">
+   <ul data-role="lstview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-icon-right ui-icon-carat-r">
+   <h2> ¿Por qué se celebra? </h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-icon-right ui-icon-carat-r">
+   <h2> Historia del Día </h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-icon-right ui-icon-carat-r">
+   <h2> La tierra que habitamos </h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-icon-right ui-icon-carat-r">
+   <h2> Dialogo sobre armonía con la naturaleza </h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-icon-right ui-icon-carat-r">
+   <h2> Hacia una tierra sostenible </h2>
+   </a>
+   </li>
+   </ul>
+   </div>
+   
+   <div class="main-content">
+   <div class="swipe-area"></div>
+   <a href="#" data-toggle=".container" id="sidebar-toggle">
+   <span class="bar"></span>
+   <span class="bar"></span>
+   <span class="bar"></span>
+   </a>
+   </div>
+   </div>
+   <center>
+   <br>
+   <div class="slider">
+   <ul>
+   <li><img src="imagenes/tierra-1.jpg" alt="sldr"></li>
+    <li><img src="imagenes/tierra-2.jpg" alt="sldr2"></li>
+    <li><img src="imagenes/tierra-33.jpg" alt="sldr3"></li>
+    <li><img src="imagenes/tierra-44.jpg" alt="sldr4"></li>
+    <li><img src="imagenes/tierra-5.jpg" alt="sldr5"></li>
+    <li><img src="imagenes/tierra-6.jpg" alt="sldr6"></li>
+    <li><img src="imagenes/tierra-7.jpg" alt="sldr7"></li>
+    <li><img src="imagenes/tierra-8.jpg" alt="sldr8"></li>
+   </ul>
+   </div>
+   </center>
+   <center>
+   <div data-role="main" class="iu-content">
+   <br> <br> <br> <br> <br> <br> <br> <br> <br>
+   <div data-role="collapsible" data-content-theme="false">
+   <h1> Realizado por: </h1>
+   <h2> Serafin Lezama Cordero </h2>
+   <p> 4 "G" </p>
+   <h1> Especialidad: </h1>
+   <p> Programación </p>
+   <h2> Submódulo: </h2>
+   <p> Desarolla Aplicaciones Moviles </p>
+   <h2> Docente: </h2>
+   <p> Li.José Antonio Gómez Hernández </p>
+   </div>
+   </div>
+   </center>
+   
+   <center>
+   <div data-role="main" class="iu-content">
+   <br> <br> 
+   <div data-role="collapsible" data-content-theme="false">
+   <h1> Infografia: </h1>
+
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('kokun','','imagenes/tierra-4.jpg',1)"><img src="imagenes/tierra-3.jpg" width="60%" height="60%" id="kokun"></a><br>
+   
+   </div>
+   </div>
+   </center>
+   
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <h4> Dia de la madre tierra </h4>
+   <h4> Serafin Lezama Cordero </h4>
+   <img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+   </div>
+   
+   <!--Pagina 1 -->
+   <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> ¿Por qué se celebra? </h1>
+   </div>
+   <center>
+   <div data-role="main" class="iu-content">
+   <p>
+   Celebramos el Dia Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este dia, asumimos, además, la responsabilidad colectiva, como nos recordaba la Declaración de Rio de 1992, de fomentar esta armonía con la naturaleza y la Madre Tierra.
+   Este dia nos brina también la oportunidad de concienciar a todos los habitantes del planeta acerca de los problemas que afectan a la Tierra y a las diferentes formas de vida que en él se desarollan. 
+   </p>
+   </div>
+   </center>
+   <center>
+   
+   <div data-role="main" class="ui-content" align="center">
+   <div style="width:30%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   <img src="imagenes/m2.jpg" alt="m9" width="60%" height="60%">
+   <a href="https://www.un.org/es/events/motherearthday/" target="_self" data-role="button">
+   <h4> Ver más </h4>
+   </a>
+   </li>
+   </ul>
+   </div>
+   </div>
+   </center>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   <h4> Serafin Lezama Cordero </h4>
+   <img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+   </div>
+   
+   
+   <!-- Final Pagina 1 -->
+   
+   <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Historia del Día </h1>
+   </div>
+   <center>
+   <div data-role="main" class="iu-content">
+   <p>
+  El Día de la Tierra tiene sus raíces en en 1960, la década del activismo combativo: “El medioambiente empezaba a sufrir y la gente estaba enfadada”.
+
+"En algunas ciudades del país, no era raro que pudieras caminar por el centro el plena hora punta y no poder ver nada debido a la contaminación”, dijo.
+
+A pesar del desencanto popular, las cuestiones ecológicas no estaban presentes en la agenda de los políticos de americanos, cuestión que irritaba al senador por Wisconsin, Gaylord Nelson, cuyas campañas en favor del medio ambiente durante la década de 1960 no surtieron efecto..
+   </p>
+   <div data-role="collapsible" data-content-theme="false"> <!-- aqui m -->
+   
+   </div>
+   </div>
+   </center>
+   <center>
+   
+   
+   <div data-role="main" class="ui-content" align="center">
+   <div style="width:30%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+    
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('kks','','imagenes/tierra-13.jpg',1)"><img src="imagenes/tierra-9.jpg" width="60%" height="60%" id="kks"></a> 
+   <a href="https://www.nationalgeographic.es/medio-ambiente/datos-del-dia-de-la-tierra-por-que-se-celebra-donde-empezo" data-role="button">
+   <h4> Ver más </h4>
+   </a>
+   </li>
+   </ul>
+   </div>
+   </div>
+   </center>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+  <h4> Serafin Lezama Cordero </h4>
+   <img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+   </div>
+   <!-- Final Pagina 2 -->
+   
+   <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> La Tierra que habitamos </h1>
+   </div>
+   <center>
+  
+   <p>
+    Es una expresión común utilizada para referirse al Planeta Tierra en diversos países y regiones,
+     lo que demuestra la interdependencia existente entre los seres humanos, las demás especies vivas y el planeta que todos habitamos.
+    </p>
+    <img src="imagenes/tierra-11.jpg" width="60%" height="60%" alt="tierra">
+    <p>
+    La Tierra y sus ecosistemas son nuestro hogar. Para alcanzar un justo equilibrio entre las necesidades económicas, sociales y ambientales de las generaciones presentes y futuras, es necesario promover la armonía con la naturaleza y el planeta.
+    </p>
+    <img src="imagenes/tierra-6.jpg" width="60%" height="60%" alt="tierra">
+
+   
+   </center>
+   <div data-role="main" class="ui-content" align="center">
+   <div style="width:30%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child">
+   
+   <a href="http://cedu.com.ar/cedu_new/es/noticias/compromiso-ambiental/2826-la-tierra-que-habitamos.html" data-role="button">
+   <h2> Ver más </h2>
+   </a>
+   </li>
+   </ul>
+   </div>
+   </div>
+   
+   
+   
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4> Serafin Lezama Cordero </h4>
+   <img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+   <!-- Final Pagina 3 -->
+   
+    <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Dialogo sobre armonía con la naturaleza </h1>
+   </div>
+   
+   
+   <center>
+   <p align="justify">
+    En el Día de la Tierra celebramos el respeto que le tenemos al planeta. Es un buen momento para tomar conciencia sobre su conservación.Hoy celebramos el Día Mundial de la Madre Tierra, nuestra casa, el suelo que pisamos, el aire que respiramos, lo que comemos y lo que bebemos.Este es un buen día para tomar conciencia sobre lo que hacemos en este mundo y cómo lo hacemos porque es el único que tenemos y toda nuestra vida, la única que poseemos, está ligada a este planeta.El origen de esta celebración comenzó en 1970, cuando 20 millones de norteamericanos comenzaron a manifestarse por un medio ambiente sano y sustentable.Fue en 2009 cuando la Organización de las Naciones Unidas declaró el 22 de abril como el Día Mundial de la Madre Tierra. 
+
+Este año, la celebración está dedicada a llevar a cabo nuevas acciones en la lucha contra el Cambio Climático.En la CONANP te invitamos a sumarte a este día y trabajar juntos en la conservación de nuestra riqueza natural, nuestras 182 Áreas Naturales Protegidas. 
+
+Todos podemos contribuir, comienza reduciendo tu consumo de plásticos, usa la bicicleta y planta un árbol en tu jardín. Es por ti, por nosotros y para que las futuras generaciones puedan vivir un planeta verde. 
+    </p>
+    </center>
+   <div data-role="main" class="ui-content" align="center">
+   <div style="width:30%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+  <img src="imagenes/tierra-10.jpg" width="80%" height="80%" alt="tierra10">
+  
+  <a href="https://www.gob.mx/conanp/articulos/dia-mundial-de-la-madre-tierra-154937?idiom=es" data-role="button">
+   <h2> Ver más </h2>
+   </a>
+  
+   </ul>
+   </div>
+   </div>
+   
+   
+ 
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <h4> Serafin Lezama Cordero </h4>
+   <img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+   <!-- Final Pagina 4 -->
+   
+   <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Hacia una tierra sostenible </h1>
+   </div>
+   <center>
+   <p align="justify">A menudo nos encontramos ante la duda de cómo podemos con nuestro comportamiento influir positivamente en el desarrollo sostenible, es preciso entender que los problemas que afectan la sostenibilidad no están  restringidos a las grandes empresas, de una forma u otra todos contribuimos con nuestro granito de arena.
+
+Las soluciones a los problemas que afectan el  desarrollo sostenible  no debe limitarse únicamente a las  políticas, estrategias y estándares diseñados y establecidas en las empresas.
+
+Aunque parezcan insignificantes, nuestras acciones individuales pueden contribuir considerablemente   y de manera positiva en la sostenibilidad, es preciso nuestro compromiso y concientización para lograr un desarrollo verdaderamente sostenible.
+
+A continuación les presento un conjunto de medidas que debemos contemplar para contribuir con esta importantísima causa.</p>
+</center>
+<p align="center">&nbsp; </p>
+   <div data-role="main" class="ui-content" align="center">
+     <div style="width:30%;">
+   <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+   <li class="ui-first-child ui-last-child"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('idk3','','imagenes/m14.jpg',1)"><img src="imagenes/m13.jpg" width="80%" height="80%" id="idk3"></a><a href="https://www.eoi.es/blogs/cristinaperez1/2012/04/30/%C2%BFcomo-podemos-contribuir-con-la-sostenibilidad/" data-role="button">
+   <h2> Ver más </h2>
+   </a>
+   </li>
+   </ul>
+   </div>
+ </div>
+   
+   
+   
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <h4> Serafin Lezama Cordero </h4>
+   <img src="imagenes/mdpi.png" width="46" height="46">
+   </div>
+   </div>
+</body>
+</html>
